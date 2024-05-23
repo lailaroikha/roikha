@@ -1,14 +1,35 @@
-
-
-.navbarMobile {
-    background-color: #ffffff;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* thememobile.module.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-.logo {
-    width: 60px;
-    height: 60px;
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Jarak antar menu */
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333; /* Warna teks menu */
+}
+
+.toggleButton {
+    display: none; /* Sembunyikan tombol hamburger pada tampilan desktop */
 }
 
 .menuMobile {
@@ -18,19 +39,21 @@
 }
 
 .menuMobile li {
-    margin-bottom: 10px;
-}
-
-.menuMobile li:last-child {
-    margin-bottom: 0;
+    padding: 10px 0;
 }
 
 .menuMobile li a {
     text-decoration: none;
-    color: #333333;
-    font-weight: bold;
+    color: #333; /* Warna teks menu */
+    display: block;
 }
 
-.menuMobile li a:hover {
-    color: #007bff;
+@media (max-width: 768px) {
+    .menu {
+        display: none; /* Sembunyikan menu desktop pada tampilan mobile */
+    }
+
+    .toggleButton {
+        display: block; /* Tampilkan tombol hamburger pada tampilan mobile */
+    }
 }
