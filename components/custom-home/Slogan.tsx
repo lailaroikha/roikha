@@ -6,7 +6,7 @@ const Slogan = () => {
     <div className="mt-20 mx-auto h-screen w-full">
       <div className="relative w-full h-full">
         <div className="hero" style={{ position: 'relative', width: '100%', height: '100vh' }}>
-          <Image className='opacity-90'
+          <Image className='opacity-60'
             src={slogan1} 
             alt="Hero Image" 
             layout="fill"
@@ -14,9 +14,12 @@ const Slogan = () => {
             objectPosition="center"
             style={{ zIndex: -1 }}
           />
-          <div style={{ fontWeight: 'bold', fontSize: '48px' , position: 'absolute', top: '240px', left: '20px', color: 'white', zIndex: 1 }}>
-           <p>Here For You.</p>
-           <p>A smarter way to study.</p>
+          <div style={{ fontWeight: 'bold', fontSize: '48px' , position: 'absolute', top: '240px', left: '20px', color: 'black', zIndex: 1 }}>
+           <p>Free Calm Premium</p>
+           <p>Unlimited access 1 month.</p>
+           <div>
+           <button className="font-normal mt-2 px-2 py-1 bg-gray-600 text-white rounded hover:bg-gray-400"> Join now </button>
+           </div>
           </div>
         </div>
       </div>
