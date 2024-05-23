@@ -1,12 +1,16 @@
 
-import Hero from "@/components/custom-home/Hero";
-import Product from "@/components/custom-home/Project";
+import Hero from "@/components/custom-home/Hero"
+import Project from "@/components/custom-home/Project"
+import Testimonial from "@/components/custom-home/Testimonial"
+import Slogan from "@/components/custom-home/slogan";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Hero />
-      <Product />
+      <Project />
+      <Testimonial />
+      <Slogan />
     </main>
   );
 }
