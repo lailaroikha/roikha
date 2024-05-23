@@ -1,6 +1,7 @@
 
 import Hero from "@/components/custom-home/Hero"
 import Project from "@/components/custom-home/Project"
+import Slogan from "@/components/custom-home/Slogan";
 import Testimonial from "@/components/custom-home/Testimonial"
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Project />
       <Testimonial />
+      <Slogan />
 
     </main>
   );
