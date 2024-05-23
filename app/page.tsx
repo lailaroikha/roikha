@@ -2,7 +2,7 @@
 import Hero from "@/components/custom-home/Hero"
 import Project from "@/components/custom-home/Project"
 import Testimonial from "@/components/custom-home/Testimonial"
-import Slogan from "@/components/custom-home/slogan";
+import Slogan from "@/components/custom-home/Slogan";
 
 export default function Home() {
   return (
