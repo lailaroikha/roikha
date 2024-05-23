@@ -15,31 +15,3 @@
       margin-right: 2rem; /* Sesuaikan sesuai kebutuhan */
   }
 }
-
-/* Gaya untuk kotak kiri */
-.box-left {
-  background-color: #FFD6E7; /* Warna latar belakang */
-  padding: 20px; /* Padding di dalam kotak */
-  border-radius: 10px; /* Sudut melengkung */
-  width: 45%; /* Lebar kotak */
-  margin-right: 20px; /* Margin kanan */
-  margin-bottom: 20px; /* Margin bawah */
-}
-
-/* Gaya untuk kotak kanan */
-.box-right {
-  background-color: #D2E3FC; /* Warna latar belakang */
-  padding: 20px; /* Padding di dalam kotak */
-  border-radius: 10px; /* Sudut melengkung */
-  width: 45%; /* Lebar kotak */
-  margin-left: 20px; /* Margin kiri */
-  margin-bottom: 20px; /* Margin bawah */
-}
-
-/* Mengatur tata letak untuk perangkat seluler */
-@media (max-width: 768px) {
-  .box-left, .box-right {
-      width: 100%; /* Lebar kotak menjadi 100% saat di perangkat seluler */
-      margin: 0 0 20px 0; /* Reset margin dan memberikan margin bawah */
-  }
-}
