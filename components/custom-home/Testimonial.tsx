@@ -8,7 +8,7 @@ const Testimonial = () => {
 
     </div>
     <div className="bg-blue-200 p-4 rounded-lg w-1/2 ml-4">
-        <p className="text-lg font-bold">"I could not imagine life as a student without Chegg."</p>
+        <p className="text-lg font-bold"> &quot;I could not imagine life as a student without Chegg.&quot;</p>
         <p className="mt-2">- Mandy (@mandzatoba) via X, studying biology</p>
     </div>
 </div>
